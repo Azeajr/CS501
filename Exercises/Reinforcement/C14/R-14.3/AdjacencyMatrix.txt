@@ -1,0 +1,10 @@
+                0   1   2   3   4   5   6   7   8
+Chiang      0               1   1       1
+Garg        1               1           1
+Goldwasser  2               1           1
+Goodrich    3   1   1   1           1   1       1
+Preparata   4   1                       1       1
+Snoeyink    5               1
+Tamassia    6   1   1   1   1   1           1   1
+Tollis      7                           1       1
+Vitter      8               1   1       1   1

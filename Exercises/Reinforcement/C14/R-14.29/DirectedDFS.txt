@@ -1,0 +1,12 @@
+Describe the meaning of the graphical conventions used in Figure 14.9
+illustrating a DFS traversal. What do the line thicknesses signify? What do the
+arrows signify? How about dashed lines?
+Line thickness: Edges that were traversed and successfully found a new vertex.(Discovery Edges)
+Direction of arrow: The direction in which the edge was traversed.
+Dashed lines: Edges that were traversed but unsuccesfully found a new vertex.(Back edges)
+
+Repeat Exercise R-14.28 for Figure 14.8 that illustrates a directed DFS
+traversal.
+Line thickness: Thick lines are tree edges.
+Direction of arrow: This is a directed graph so edges have one direction or another. The arrow denotes the direction.
+Dashed lines: Back edges are show in 

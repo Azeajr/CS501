@@ -1,0 +1,3 @@
+The min method for the UnsortedPriorityQueue class executes in O(n) time, as analyzed in Table 9.2. Give a simple modification to the class so that min runs in O(1) time. Explain any necessary modifications to other methods of the class.
+
+By creating a Position<Entry<K,V>> called minimum I can store the minimum here and update via insert().  The issue will be that remove() will not be supported in this implementation.  If we remove minimum from the list then we would have to use findMin() to get the minimum value.  This function will run in O(n).  So once again remove() cannot be supported.

@@ -1,0 +1,6 @@
+ An alternative way of performing a split at a node w in a (2,4) tree is to
+ partition w into w′ and w′′, with w′ being a 2-node and w′′ a 3-node. Which of the
+ keys k1, k2, k3, or k4 do we store at w’s parent? Why?
+ If w' has 2 nodes then it should have k1, while w" having 3 nodes means that
+ keys k3 and k4 belong with it.  This leaves k2 to be added to parent node of
+ both w' and w".

@@ -1,0 +1,2 @@
+Had the stack of the previous problem been an instance of the ArrayStack class, from Code Fragment 6.2, what would be the final value of the instance variable t.
+Since, t starts off at -1 when the size of the stack is 0, when the stack's size is 25 then t must equal 24. This is the case so that t can be used as the index of the top of the stack.

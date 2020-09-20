@@ -1,0 +1,5 @@
+What is the difference between a shallow equality test and a deep equality test between two Java arrays, A and B, if they are one-dimensional arrays of type int? What if the arrays are two-dimensional arrays of type int?
+
+The outcome in relation to a one-dimensional array between a shallow equality test and a deep equality will be the same.  On the other hand, with a two-dimensional array a shallow equality test will always come out false.  A shallow test ends up comparing rows of the two-dimensional arrays which will be stored in different parts of memory which will cause the shallow equality test to return false.
+
+A deep equality test will determine if what it is comparing is an array or not.  If it is, it will compare each arrays corresponding values for equality.

@@ -1,0 +1,18 @@
+Consider lines 31–33 of Code Fragment 10.8 in our implementation of the class
+ChainHashMap. We use the difference in the size of a secondary bucket before and
+after a call to bucket.remove(k) to update the variable n. If we replace those
+three lines with the following, does the class behave properly? Explain.
+
+     int oldSize = bucket.size();
+     V answer = bucket.remove(k);
+     n −= (oldSize − bucket.size());
+
+
+    V answer = bucket.remove(k);
+    if (answer != null){
+        n−−;
+    }
+The class will not behave properly.  The new code assumes that each bucket only
+contains one value(n--).  This is not a correct assumption as a bucket can
+contain more that one value.  The code we actually used correctly removes
+however many values were actually removed.

@@ -1,0 +1,7 @@
+What are some potential efficiency disadvantages of having very
+deep inheritance trees, that is, a large set of classes, A, B, C,
+and so on, such that B extends A, C extends B, D extends C, etc.?
+
+The complexity of the project increases as components extend from one another.
+These inheritances allows for code-reuse and can development efficiency but
+too many layers of abstraction can detract from that efficiency.

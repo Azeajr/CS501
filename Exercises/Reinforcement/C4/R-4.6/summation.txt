@@ -1,0 +1,9 @@
+What is the sum of all even numbers from 0 to 2n, for any integer n>= 1?
+0+1+2+3+ .... + 2n-1 + 2n
+0+2n
+1+2n-1
+2+2n-2
+....
+n+2n-n
+
+2n²+2n

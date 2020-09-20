@@ -1,0 +1,6 @@
+power(2,5)      return 2*16 = 32
+    power(2,4)      return 2*8 = 16
+        power(2,3)      return 2*4 = 8
+            power(2,2)      return 2*2 = 4
+                power(2,1)      return 2*1 = 2
+                    power(2,0)      return 1

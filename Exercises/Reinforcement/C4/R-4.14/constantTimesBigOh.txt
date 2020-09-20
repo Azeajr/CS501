@@ -1,0 +1,4 @@
+Show that if d(n) is O(f(n)), then a*d(n) is O(f(n)), for any constant a > 0.
+if d(n) is O(f(n)) then d(n) <= c * f(n), for n>=n₀
+a * d(n) <= a * c * f(n), for n > n₀
+Therefore, a * d(n) is O(f(n)).

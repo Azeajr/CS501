@@ -1,0 +1,1 @@
+The java.util.ArrayList includes a method, trimToSize(), that replaces the underlying array with one whose capacity precisely equals the number of elements currently in the list. Implement such a method for our dynamic version of the ArrayList class from Section 7.2.

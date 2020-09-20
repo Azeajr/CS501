@@ -1,0 +1,6 @@
+What is the result of Exercise R-10.6 when collisions are handled by
+double hashing using the secondary hash function h'(k) = 7−(k mod 7)?
+h(i) = (3i+5) mod 11
+12, 44, 13, 88, 23, 94, 11, 39, 20, 16, and 5,
+0   1   2   3   4   5   6   7   8   9   10
+13  94  23  88  39  44  11  5   12  16  20

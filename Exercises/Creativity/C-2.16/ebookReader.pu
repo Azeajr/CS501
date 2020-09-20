@@ -1,0 +1,34 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+class ebookReader {
+    -owned:bookOwned[]
+    -forsale:bookForSale[]
+    +readBook(current:bookOwned)
+    +buyBook(new:bookForSale)
+    +viewOwned(owned:bookForSale[])
+    +main(args:String[]):void
+}
+
+class book{
+    #title:String
+    #isbn:int
+    #pageTotal:int
+}
+
+class bookForSale{
+    -price:double
+    +getPrice()
+}
+
+class bookOwned{
+    +pagesRead:int
+    +readPage(page:int)
+
+
+}
+ebookReader ..> book
+book <|-- bookForSale
+book <|-- bookOwned
+
+@enduml

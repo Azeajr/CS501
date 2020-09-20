@@ -1,0 +1,15 @@
+Let B be an array of size n>=6 containing integers from 1 to n-5 inclusive, five of which are repeated. Describe an algorithm for finding the five integers in B that are repeated.
+
+int[] B = new int[10];
+count = 0;
+
+for(int i = 0; i < B.length; i++){
+    for(int j = i+1; j < B.length; j++){
+        if(B[i]==B[j]){
+            count++;
+        }
+        if(count==5){
+        return B[j];
+        }
+    }
+}

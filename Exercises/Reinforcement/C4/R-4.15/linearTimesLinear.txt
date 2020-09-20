@@ -1,0 +1,9 @@
+Show that if d(n) is O(f(n)) and e(n) is O(g(n)), then the product d(n) * e(n) is O(f(n) * g(n)).
+
+
+if d(n) is O(f(n)) then d(n) <= c₀ * f(n), for n>=n₀
+if e(n) is O(g(n)) then e(n) <= c₁ * g(n), for n>=n₁
+
+d(n) * e(n) <= c₀ * f(n) * c₁ * g(n), for n > n₂
+
+d(n) * e(n) <= (c₀ * c₁) * (f(n) * g(n)), for n > n₂

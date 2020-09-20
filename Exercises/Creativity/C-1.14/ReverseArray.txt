@@ -1,0 +1,21 @@
+Start by storing the first value of the array.
+Store the last value in the array as the first value.
+Store the temporary value at the end of the array.
+If the array is even continue swapping until the halfway point is reached.
+If the array is odd the middle value will not need to be swapped.
+
+void reverseArray(int arr[]){
+    int n= arr.length;
+    /*
+     * This ends up working out because when n is even, say n=6,
+     * then n/2 will equal 3.  Due to zero indexing, this means
+     * that that the first three elements will be swapped with
+     * the last three.  If n is odd, say n=5, then n/2 will
+     * equal 2.  Once again, zero indexing makes this only
+     * effect the first two elements swapping with the last two.
+     * The middle element does not need to be swapped.
+     */
+    for(int i = 0; i < n/2; i++){
+
+    }
+}

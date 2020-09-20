@@ -1,0 +1,15 @@
+Give a justification of Proposition 8.3.
+
+Proposition 8.3:
+The height of the root of a nonempty tree T, according to the recursive
+definition, equals the maximum depth among all leaves of tree T.
+
+
+The depth of p can also be recursively deﬁned as follows:
+If p is the root, then the depth of p is 0.
+Otherwise, the depth of p is one plus the depth of the parent of p.
+
+
+Formally, we define the height of a position p in a tree T as follows:
+If p is a leaf, then the height of p is 0.
+Otherwise, the height of p is one more than the maximum of the heights of p’s children.

@@ -1,0 +1,16 @@
+Give three different examples of a single Java statement that assigns variable, backup, to a new array with copies of all int entries of an existing array, original.
+
+
+
+int[] backup;
+
+int[] original;
+
+backup=original.clone();
+
+or
+
+int[] backup = new int[original.length];
+for(int i = 0; i< original.length; i++){
+    backup[i]=original[i];
+}

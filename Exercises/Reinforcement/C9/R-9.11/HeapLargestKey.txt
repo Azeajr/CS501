@@ -1,0 +1,2 @@
+At which position of a heap ight the largest key be stored?
+It would definitely be located somewhere on the last level of the heap.  More specifically it must be located in one of the leaves due to the heap-order property.

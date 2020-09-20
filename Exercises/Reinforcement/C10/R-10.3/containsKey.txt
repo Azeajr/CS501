@@ -1,0 +1,10 @@
+The use of null values in a map is problematic, as there is then no way to
+differentiate whether a null value returned by the call get(k) represents the
+legitimate value of an entry (k,null), or designates that key k was not found.
+The java.util.Map interface includes a boolean method, containsKey(k), that
+resolves any such ambiguity. Implement such a method for the UnsortedTableMap
+class.
+
+ boolean containsKey(K key){
+     return findIndex(key) != -1;
+ }

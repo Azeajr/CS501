@@ -1,0 +1,25 @@
+Draw four different red-black trees that correspond to the same (2,4) tree.
+                    12
+
+        5,10                    15
+
+3,4     6,7,8   11          13,14   17
+
+
+                    12b
+        5b                       15b
+    3b       10r             13b      17b
+      4r   7b    11b                14r
+          6r 8r
+
+                    12b
+        10b                     15b
+    5r         11b         13b        17b
+3b      7b                         14r
+  4r  6r  8r
+
+                    12b
+        5b                       15b
+    4b       10r             13b      17b
+   3r     7b    11b                14r
+         6r 8r

@@ -1,0 +1,2 @@
+Let T be a complete binary tree such that position p stores an element with key f(p), where f(p) is the level number of p.  Is tree T a heap?  Why or why not?
+Yes T is a heap.  Since the levels get larger as you move down the tree, the heap-order property is preserved.  Necessarily this will mean that a parent position p will have a key of f(p) = n, while it's child c will have a key of f(c) = n+1. This preserves heap-order property.

@@ -1,0 +1,4 @@
+Give three examples of life-critical software applications.
+*Air traffic control software
+*Safety control measures of a car such as anti-lock brakes.
+*The software that controls a radiation therapy machine.

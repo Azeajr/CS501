@@ -1,0 +1,19 @@
+What values are returned during the following series of stack operations, if executed upon an initially empty stack?
+push(5)     5
+push(3)     3,5
+pop()       5
+push(2)     2,5
+push(8)     8,2,5
+pop()       2,5
+pop()       5
+push(9)     9,5
+push(1)     1,9,5
+pop()       9,5
+push(7)     7,9,5
+push(6)     6,7,9,5
+pop()       7,9,5
+pop()       9,5
+push(4)     4,9,5
+pop()       9,5
+pop()       5
+Stack = {5}

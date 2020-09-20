@@ -1,0 +1,4 @@
+BOS -> LAX
+BOS -> SFO
+BOS -> DFW
+BOS -> ORD

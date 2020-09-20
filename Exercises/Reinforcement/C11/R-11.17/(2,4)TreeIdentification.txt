@@ -1,0 +1,2 @@
+Is the search tree of Figure 11.22(a) a (2,4) tree? Why or why not?
+No, the depth of all external nodes should be the same.  That is not the case.

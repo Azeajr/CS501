@@ -1,0 +1,9 @@
+Chiang      Goodrich,Preparata,Tamassia
+Garg        Goodrich,Tamassia
+Goldwasser  Goodrich,Tamassia
+Goodrich    Chiang,Garg,Goldwasser,Snoeyink,Tamassia,Vitter
+Preparata   Chiang,Tamassia,Vitter
+Snoeyink    Goodrich
+Tamassia    Chiang,Garg,Goldwasser,Goodrich,Preparata,Tollis,Vitter
+Tollis      Tamassia,Vitter
+Vitter      Goodrich,Preparata,Tollis

@@ -1,0 +1,5 @@
+Explain the changes that would have to be made to the program of Code Fragment 3.8 so that it could perform the Caesar cipher for messages that are written in an alphabet-based language other that English, such as Greek, Russian, or Hebrew.
+
+The size of the encoder and decoder array needs to be adapted the size of the target alphabet.  The CeaserCipher constructor needs to be adjusted as well. The character that is used needs to coincide with the Unicode beginning of the target language.  In Greek that would be 913(decimal) for the capitol alpha.
+
+The transform method needs to adjusted in a similar fashion.  Changing the 'A' to 913 if the target language is Greek is an example.

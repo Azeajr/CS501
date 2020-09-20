@@ -1,0 +1,18 @@
+/*
+ * Draw a simple undirectedgraph G that has
+ * 12 vertices, 18 edges, and 3 connected components.
+ */
+
+graph graphname{
+    1 -- {2 3 4 5};
+    2 -- {3 4 5};
+    3 -- {4 5};
+    4 -- 5;
+
+    6 -- {7 8 9 10};
+    7 -- {8 9 10};
+    8 -- {9 10};
+
+    11 -- {12};
+
+}

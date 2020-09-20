@@ -1,0 +1,30 @@
+Give a pseudocode description of an insertion into a hash table that uses
+quadratic probing to resolve collisions, assuming we also use the trick of
+replacing deleted entries with a special “available” object.
+bucketPut(h, k, v)
+
+
+private int findSlot(int h, K k){
+    int avail = -1;
+    int j = h;
+    do{
+        if(isAvailable(j)){
+            if(avail == -1){
+                avail = j;
+            }
+            if(table[j] == null){
+                break;
+            }
+        }else if(table[j].getKey().equals(k)){
+            return j;
+        }
+        /*
+         *
+         */
+        j = (j + j*j) % capacity;
+        /*
+         * 
+         */
+    }while(j != h);
+    return -(avail + 1);
+}

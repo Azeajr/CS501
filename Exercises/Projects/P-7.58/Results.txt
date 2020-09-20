@@ -1,0 +1,41 @@
+Develop an experiment, using techniques similar to those in Section 4.1, to test
+the efficiency of n successive calls to the add method of an ArrayList, for
+various n, under each of the following three scenarios:
+a. Each add takes place at index 0.
+b. Each add takes place at index size()/2.
+c. Each add takes place at index size().
+
+Analyze your empirical results.
+A.
+N: 10           NanoSec:       28500
+N: 100          NanoSec:      148400 * 5.2
+N: 1000         NanoSec:     4233600 * 28.5
+N: 10000        NanoSec:   137010800 * 32
+N: 100000       NanoSec: 14884399300 * 108.6
+
+Since we are adding at the front of the ArrayList then we will always have
+N-1 shifts as we make room for the element to be inserted.
+
+B.
+N: 10           NanoSec:      31000
+N: 100          NanoSec:      93100 * 3
+N: 1000         NanoSec:    2437400 * 26.2
+N: 10000        NanoSec:   73270500 * 30.1
+N: 100000       NanoSec: 7316609100 * 99.9
+
+Since we are adding at the middle of the ArrayList then we will always have
+(N-1)/2 shifts as we make room for the element to be inserted.
+
+C.
+N: 10           NanoSec:   29500
+N: 100          NanoSec:   20600
+N: 1000         NanoSec:  325300 * 15.8
+N: 10000        NanoSec: 1250200 * 3.8
+N: 100000       NanoSec: 7840700 * 6.3
+
+Since we are adding at the end of the ArrayList then we will not need to
+shift any values to make room.
+
+
+My results lead me to think that adding at the end seems to have a running
+time of O(n) while the other cases are probably O(n^2) or O(2^n).

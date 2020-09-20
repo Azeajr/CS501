@@ -1,0 +1,2 @@
+At which position of a heap might the third smallest key be stored?
+It would most likely be stored in the right most element of the 1st level.

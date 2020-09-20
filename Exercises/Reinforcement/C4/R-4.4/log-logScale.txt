@@ -1,0 +1,3 @@
+Give an example of a function that is plotted the same on a log-log scale as it is in a standard scale.
+
+Linear function, O(n).

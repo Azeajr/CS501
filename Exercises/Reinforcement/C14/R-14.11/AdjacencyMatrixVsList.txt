@@ -1,0 +1,17 @@
+Would you use the adjacency matrix structure or the adjacency list structure in
+each of the following cases? Justify your choice.
+a. The graph has 10,000 vertices and 20,000 edges, and it is important to use as
+little space as possible.
+Adjaceny list is prefered since it's space usage is O(n+m) or in this case
+30,000 vs O(n^2) with 100,000,000
+
+b. The graph has 10,000 vertices and 20,000,000 edges, and it is important to
+use as little space as possible.
+Accoding to the general case the adjacency matrix has a space usage of O(n^2) or
+100,000,000 vs O(n+m) with 20,010,000.  But this graph is actually considered
+very dense.  At this point an adjacency list consumes the same space as as
+adjacency matrix.  At that point a I would choose a adjacency matrix.
+
+c. You need to answer the query getEdge(u, v) as fast as possible, no matter how
+much space you use.
+Adjaceny matrix completes00 this task in constant time O(1) vs O(m) of an adjacency list.

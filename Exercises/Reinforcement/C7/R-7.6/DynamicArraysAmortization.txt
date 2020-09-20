@@ -1,0 +1,5 @@
+Redo the justiﬁcation of Proposition 7.2 assuming that the the cost of growing the array from size k to size 2k is 3k cyber-dollars. How much should each push operation be charged to make the amortization work?
+0   $$
+
+0
+1   

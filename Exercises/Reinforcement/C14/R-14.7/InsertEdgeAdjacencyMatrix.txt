@@ -1,0 +1,9 @@
+Give pseudocode for performing the operation insertEdge(u, v, x) in O(1) time
+using the adjacency matrix representation.
+
+Algorithm:  insertEdge(u, v, x)
+    Input:  Vertices u and v and element x.
+    Output: An edge connecting vertices u and v while storing element x.
+    Create edge(u,v)
+    Store x in this edge.
+    Set G[u][v] to point to this new edge;

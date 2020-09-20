@@ -1,0 +1,3 @@
+Suppose an initially empty stack S has performed a total of 25 push operations, 12 top operations, and 10 pop operations, 3 of which returned null to indicate an empty stack.  What is the current size of S?
+
+The size of the stack will end up being 18.  The 12 top operations do not effect the size of the stack. Since 3 of the 10 pop operations had no effect(returned null) that means 7 of them did end up removing an element.  25 minus 7 equals 18.

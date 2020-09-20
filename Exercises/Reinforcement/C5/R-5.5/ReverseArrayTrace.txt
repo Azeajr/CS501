@@ -1,0 +1,5 @@
+data = {4,3,6,2,6}
+
+reverseArray(data,0,4)              {6,3,6,2,4}
+    reverseArray(data,1,3)          {6,2,6,3,4}
+        reverseArray(data,2,2)      {6,2,6,3,4}

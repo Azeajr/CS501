@@ -1,0 +1,7 @@
+What are some potential efficiency disadvantages of having very shallow
+inheritance trees, that is, a large set classes, A, B, C,  and so on, such
+that all of these classes extend a single class, Z?
+
+Parts of class A, B, C, and so on may be repeated/redundant.
+This may have been alleviated using inheritance so that related
+pieces of code do not have to be rewritten with each class.

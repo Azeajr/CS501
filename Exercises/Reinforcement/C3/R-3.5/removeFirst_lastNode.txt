@@ -1,0 +1,6 @@
+The removeFirst method of the SinglyLinkedList class includes a special case to reset the tail field to null when deleting the last node of a list (see lines 51 and 52 of Code Fragment 3.15).  What are the consequences if we were to remove those two lines from the code? Explain why the class would or would not work with such a modification.
+
+
+/*If these lines are removed then the removeFirst method would leave the tail pointer unchanged when the LinkedList is empty.  This would mean that head points to tail and tail still points to the last element that was removed.  This should not be the case.  If the list is empty both the head and tail node need to work properly so that the last() method works correctly.  Otherwise,*/
+
+After more analysis I do not think that there is a case in which removing these two lines will have a negative effect.  Every method that might have an issue relies on the size variable to return null so it ends up not mattering that tail still points to a node that is not a part of the list.

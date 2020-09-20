@@ -1,0 +1,11 @@
+Give a big-Oh characterization, in terms of n, of the running time of the example1 method shown in Code Fragment 4.12.
+O(n)
+
+
+public static in example1(int[] arr){
+    int n = arr.length, total = 0;
+    for(int j = 0; j < n; j++;){
+        total += arr[j];
+    }
+    return total;
+}

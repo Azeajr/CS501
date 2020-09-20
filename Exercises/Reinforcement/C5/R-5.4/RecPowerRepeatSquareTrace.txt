@@ -1,0 +1,6 @@
+power(2,18) return 512*512 = 262144
+    power(2,9)  return 16*16*2 = 512
+        power(2,4)  return 4*4 = 16
+            power(2,2)  return 2*2 = 4
+                power(2,1)  return 1*1*2 = 2
+                    power(2,0) return 1

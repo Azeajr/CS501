@@ -1,0 +1,21 @@
+Consider the set of keys K ={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}.
+a. Draw a (2,4) tree storing K as its keys using the fewest number of nodes.
+One possible order that minimizes the number of nodes created is:
+4,6,8,9,10,12,3,2,13,1,5,7,11,14,15
+                            4,8,12
+1,2,3           5,6,7                    9,10,11           13,14,15
+
+
+b. Draw a (2,4) tree storing K as its keys using the greatest number of nodes.
+Inserting the nodes in reverse order actually ends up creating the most nodes.
+This is due to how we implemented the splitting algorithm for overflown nodes.
+Our implementation had us splitting a 5-node into a 3-node on the left and a
+2-node on the right.  This means that we should build towards the left if we
+want to maximize splitting of nodes.  Counting down accomplishes this.
+15,14,13,12,11,10,9,8,7,6,5,4,3,2,1
+
+                             8,12
+
+       4,6                    10                  14
+
+1,2,3   5   7               9   11              13  15

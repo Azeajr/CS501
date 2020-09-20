@@ -1,0 +1,9 @@
+If G is a simple undirected graph with 12 vertices and 3 connected components,
+what is the largest number of edges it might have?
+30 edges
+1st component       2nd component       3rd component
+8 vertices          2 vertices          2 vertices
+28 edges            1 edge              1 edges
+
+4 vertices          4 vertices          4 vertices
+6 edges             6 edges             6 edges

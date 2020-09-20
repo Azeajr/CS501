@@ -1,0 +1,24 @@
+Check each value of array.  If the value is smaller than smallest store it in
+smallest. If the value is larger than largest than store it in largest.  At the
+end return smallest and largest.
+
+
+String findMaxMinArray(int arr[]){
+    int max, min;
+    /*
+     * Starts by assuming that the beginning of the array is the highest and lowest value.
+     */
+    max=min=0;
+
+
+    for(int i=0; i<arr.length; i++){
+        if(arr[min]>arr[i]){
+            min=i;
+        }
+        if(arr[max]<arr[i]){
+            max=i;
+        }
+    }
+
+    return "Max: " + arr[max] + "\nMin: " + arr[min] + "\n";
+}

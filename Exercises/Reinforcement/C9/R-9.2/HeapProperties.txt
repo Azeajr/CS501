@@ -1,0 +1,2 @@
+Suppose you set the key for each position p of a binary tree T equal to its preorder rank.  Under what circumstances is T a heap?
+As long as the tree is complete it will be a heap.

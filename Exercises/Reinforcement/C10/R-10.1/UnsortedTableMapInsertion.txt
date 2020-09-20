@@ -1,0 +1,6 @@
+What is the worst-case running time for inserting n key-value pairs into an initially empty map M that is implemented with the UnsortedTableMap class?
+Each fundamental method takes O(n) time in the worst case because of the need to scan through the entire list when searching for an existing entry.
+
+Since I have to insert n ky-value pairs each insert will increase in complexity as the map size increases.
+1 + 2 + 3 + 4 + .... + (n-1) + n  = n(n+1)/2
+Therefore the complexity will be O(n²).         

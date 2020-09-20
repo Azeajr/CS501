@@ -1,0 +1,14 @@
+Give a justification of the running times shown in Table 7.1 for the methods of an array list implemented with a (nonexpanding) array.
+Method      Running Time
+size()      O(1)
+isEmpty()   O(1)
+get(i)      O(1)
+set(i, e)   O(1)
+add(i, e)   O(n)
+remove(i)   O(n)
+
+Regardless of the size of the array list:
+size() still returns the size variable's contents
+isEmpty() still compares the size variable to zero
+get(i) returns whatever is located at i
+set(i,e) changes the value located at i to e

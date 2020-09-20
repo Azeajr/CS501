@@ -1,0 +1,5 @@
+Suppose an initially empty queue Q has performed a total of 32 enqueue operations, 10 first operations, and 15 dequeue operations, 5 of which returned null to indicate an empty queue.
+
+Had the queue of the previous problem been an instance of the ArrayQueue class, from Code Fragment 6.10, with capacity 30 never exceeded, what would be the final value of the instance variable f?
+
+This answer comes directly from the dequeue method. f is incremented then forced to stay within the ring from 0 to 29.  Because there are 10 successful dequeue calls then the f will equal 10.

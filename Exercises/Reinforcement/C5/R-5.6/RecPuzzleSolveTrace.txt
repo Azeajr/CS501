@@ -1,0 +1,3 @@
+S = {}
+U = {a,b,c,d}
+PuzzleSolve(3,S,U)

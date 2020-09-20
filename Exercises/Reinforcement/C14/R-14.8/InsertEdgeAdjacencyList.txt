@@ -1,0 +1,9 @@
+Repeat Exercise R-14.7 for the adjacency list representation, as described in
+the chapter.
+
+Algorithm:  insertEdge(u, v, x)
+    Input:  Vertices u and v and element x.
+    Output: An edge connecting vertices u and v while storing element x.
+
+    Create edge(u,v)
+    Add edge to u and v's incidence collections.

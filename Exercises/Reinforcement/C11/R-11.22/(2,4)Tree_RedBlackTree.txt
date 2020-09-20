@@ -1,0 +1,12 @@
+Consider the sequence of keys (5,16,22,45,2,10,18,30,50,12,1).
+Draw the result of inserting entries with these keys (in the given order) into
+a. An initially empty (2,4) tree.
+                        10,22
+
+        1,2,5           12,16,18            30,45,50
+b. An initially empty red-black tree.
+
+                        16B
+        5R                                        22R
+    2B      10B                             18B         45B
+  1R            12R                                  30R   50R

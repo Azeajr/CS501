@@ -1,0 +1,24 @@
+/*
+ * Explain how to modify the recursive binary search algorithm so that it
+ * returns the index of the target in the sequence or -1(if the target is
+ * not found).
+ *
+ * Instead of returning boolean we will return int.  Instead returning
+ * false I would return a -1.  Next if the target is found I will return mid
+ * which is it's index.
+ */
+
+public static int binarySearch(int[] arr, int target, int low, int high){
+    if(low > high){
+        return -1;
+    }else{
+        int mid = (low + high)/2;
+        if(target == arr[mid]){
+            return mid;
+        }else if(target < arr[mid]){
+            return binarySearch(arr, target, low, mid-1);
+        }else{
+            return binarySearch(arr, target, mid+1, high);
+        }
+    }
+}

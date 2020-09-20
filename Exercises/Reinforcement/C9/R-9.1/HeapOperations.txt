@@ -1,0 +1,2 @@
+How long would it take to remove the ⌈log n⌉ smallest elements from a heap that contains n entries, using the removeMin operation?
+Since removeMin() runs on O(log n) time and I am making (log n) calls to removeMin(), then that means O(log n * log n) = O(log² n).

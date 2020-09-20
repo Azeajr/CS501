@@ -1,0 +1,4 @@
+Does the trinode restructuring in Figure 11.11 rely on a single or double
+rotation? What about the restructuring in Figure 11.13?
+Figure 11.11 uses double rotation trinode restructuring.
+Figure 11.13 uses single rotation trinode restructuring.

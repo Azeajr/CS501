@@ -1,0 +1,7 @@
+Suppose we represent a graph G having n vertices and m edges with the edge list
+structure. Why, in this case, does the insertVertex method run in O(1) time
+while the removeVertex method runs in O(m) time?
+
+When the removeVertex method is called not only does the vertex need to be
+removed but all incident edges.  To determine which edges are incident that
+involves a search of each edge for incidence with the vertex to be removed.

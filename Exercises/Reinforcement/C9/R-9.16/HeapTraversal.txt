@@ -1,0 +1,15 @@
+Is there a heap H storing seven entries with distinct keys such that a preorder traversal of H yields the entries of H in increasing or decreasing order by key?  How about an inorder traversal?  How about a postorder traversal? If so, give an example; if not, say why.
+
+The only one that will not work is inorder.  Inorder uses the following order: left root right.  In a heap T, for every position p other than the root, the key stored at p is greater than or equal to the key stored at p's parent.  Which means that some point inorder traversal will get values out of order.  Imagine if a parent has a key of 4 and its left and right children have a key value of 5 and 6 respectively.  This will result in an inorder traversal 5, 4, 6.  There is no way around this issue.
+
+As for preorder,
+        0
+    1       4
+  2   3   5   6
+preorder(0,1,2,3,4,5,6)
+
+As for postorder,
+        0
+    4       1
+  6   5   3   2
+postorder(6,5,4,3,2,1,0)

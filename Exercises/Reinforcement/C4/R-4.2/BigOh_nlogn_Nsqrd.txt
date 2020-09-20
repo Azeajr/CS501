@@ -1,0 +1,2 @@
+The number of operations executed by algorithms A and B is 8n*log(n) and 2n², respectively. Determine n₀ such that A is better than B for n>= n₀.
+n₀ is 16. Graphing calculator would be useful here.

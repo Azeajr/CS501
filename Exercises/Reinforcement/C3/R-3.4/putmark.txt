@@ -1,0 +1,18 @@
+/** Puts an X or O mark at position i,j. */
+public void putMark(int i, int j) throws IllegalArgumentException {
+    if ((i < 0) || (i > 2) || (j < 0) || (j > 2))
+        throw new IllegalArgumentException("Invalid board position");
+    if (board[i][j] != EMPTY)
+        throw new IllegalArgumentException("Board position occupied");
+
+    /*
+    * Made this change so that an error is thrown if play is
+    * attempted after the game has already been won.
+    */
+    if (isWin(X) || isWin(O)){
+        throw new IllegalStateException("Game has already been won");
+    }
+
+    board[i][j] = player;       // place the mark for the current player
+    player = - player;          // switch players (uses fact that O = - X)
+}

@@ -1,0 +1,8 @@
+The LinkedPositionalList implementation of Code Fragments 7.9–7.12 does not do
+any error checking to test if a given position p is actually a member of the
+relevant list. Give a detailed explanation of the effect of a call
+L.addAfter(p, e) on a list L, yet with a position p that belongs to some other
+list M.
+
+
+I think that addAfter will end up adding the element to a completely different list.  Th

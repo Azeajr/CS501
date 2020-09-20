@@ -1,0 +1,2 @@
+Explain why a hash table is not suited to implement a sorted map.
+Hash-based implementations of the map ADT intentionally scatter keys that may seem very "near" to each other in the original domain, so that they are more uniformly distributed in a hash table.

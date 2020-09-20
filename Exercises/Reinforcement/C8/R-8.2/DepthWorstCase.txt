@@ -1,0 +1,7 @@
+Show a tree achieving the worst-case running time for algorithm depth.
+root
+    c1
+        c11
+            c111
+                c1111
+                    c11111

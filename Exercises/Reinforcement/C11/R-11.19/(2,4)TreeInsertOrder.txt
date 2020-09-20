@@ -1,0 +1,12 @@
+Dr. Amongus claims that a (2,4) tree storing a set of entries will always have
+the same structure, regardless of the order in which the entries are inserted.
+Show that he is wrong.
+1,2,3,4,5,6,7
+        3,6
+
+1,2     4,5     7
+
+7,6,5,4,3,2,1
+        4,6
+
+1,2,3   5       7

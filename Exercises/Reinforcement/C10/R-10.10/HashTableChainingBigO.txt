@@ -1,0 +1,4 @@
+What is the worst-case time for putting n entries in an initially empty hash
+table, with collisions resolved by chaining? What is the best case?
+Worst-case time for putting n entries in an initially empty hash table would be
+O(n).  The best-case would be O(1).

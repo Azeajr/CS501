@@ -1,0 +1,11 @@
+What does a splay tree look like if its entries are accessed in increasing order
+by their keys?
+
+                                n
+                            n-1
+                        ....
+                    3
+                2
+            1
+This is the case because we are splaying sequentially larger keys.  This will
+necessarily push the previous root down the left side of the tree.

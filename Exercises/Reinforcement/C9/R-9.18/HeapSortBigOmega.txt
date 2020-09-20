@@ -1,0 +1,4 @@
+Show that the sum i=1Σn (log i), appearing in the analysis of heap-sort, is Ω(nlogn).
+        log 1 + log 2 + log 3 + .... + log(n-1) + log(n) = log(1*2*3* .... * (n-1) * n) = log(n!)
+nlogn = log n + log n + log n + .... + log n    + log n  =
+????

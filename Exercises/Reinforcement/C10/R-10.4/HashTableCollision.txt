@@ -1,0 +1,2 @@
+Which of the hash table collision-handling schemes could tolerate a load factor above 1 and which could not?
+Separate Chaining can withstand higher load factors.  While Open Addressing(Linear Probing, Quadratic Probing) seems the least resistant.

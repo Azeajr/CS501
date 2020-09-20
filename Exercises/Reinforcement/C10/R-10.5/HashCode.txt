@@ -1,0 +1,5 @@
+What would be a good hash code for a vehicle identification number that is a
+string of numbers and letters of the form “9X9XX99X9XX999999,”where a “9”
+represents a digit and an “X” represents a letter?
+A Polynomial hash code or Cyclic-Shift hash code would be a good hash code since there would need to be a
+distinction between vin with the same character but different orders.

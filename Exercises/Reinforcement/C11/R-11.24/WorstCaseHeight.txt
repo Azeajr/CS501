@@ -1,0 +1,12 @@
+Consider a tree T storing 100,000 entries. What is the worst-case height of T in
+the following cases?
+a. T is a binary search tree.
+100,000 or n
+b. T is an AVL tree.
+17 or log n
+c. T is a splay tree.
+100,000 or n
+d. T is a (2,4) tree.
+17 or log n
+e. T is a red-black tree.
+17 or log n
